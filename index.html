@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Audio Visualizer</h1>
+        <label for="style-select">Choose a visualization style:</label>
+        <select name="style-select" id="style-select">
+            <option value="classic">Classic</option>
+            <option value="circle">Circle</option>
+            <option value="circleOutline">Circle Outline</option>
+        </select>
+        <input type="file" id="audio-file" accept="audio/*">
+        <canvas id="visualization"></canvas>
+        <button id="export-btn">Export</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
